@@ -1,0 +1,651 @@
+/* Main CSS */
+
+body {
+    transition: all 1.5s;
+  }
+  
+  .main {
+    font-family: "Fredoka One";
+  
+    
+  }
+  
+  .body {
+    background-color:rgba(253, 255, 253, 0.6);
+  }
+  
+  /* Font patterns */
+  
+  .font-BIGtitle {
+    color: #003373;;
+    font-size: 2.441rem;
+    text-decoration: none;
+  }
+  
+  .font-title-branco {
+    color: #fff;
+    font-size: 1.562rem;
+  }
+  
+  .font-title-preto {
+    color: #003373;
+    font-size: 1.562rem;
+  }
+  
+  .font-subtitle-branco {
+    color: #fff;
+    font-size: 1.25rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .font-subtitle-preto {
+    color: rgb(58, 57, 57);
+    font-size: 1.25rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .font-subtitle-azul {
+    color: #003373;
+    font-size: 1.25rem;
+  }
+  
+  .font-subtitle-azul-claro {
+    color: #3998b8;
+    font-size: 1.25rem;
+  }
+  
+  .font-subtitle-2-branco {
+    color: #fff;
+    font-size: 1.25rem;
+    font-family: "Fredoka One";
+  }
+  
+  .font-subtitle-2-preto {
+    color: rgb(58, 57, 57);
+    font-size: 1.25rem;
+    font-family: "Fredoka One";
+  }
+  
+  .font-text-branco {
+    color: #fff;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+  }
+  
+  .font-text-preto {
+    color: rgb(58, 57, 57);
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+  }
+  
+  /* Input */
+  
+  .all-input{
+    height: 46px;
+    width: 534px;
+  }
+  
+  /* Landingpage */
+  #logo {
+    margin-top: 10px;
+    color: rgb(109, 15, 15);
+    font-size: 39px;
+    text-decoration: none;
+  }
+  
+  #navbar-div {
+    margin-top: 10px;
+    border-radius: 8px;
+    padding-top: px;
+    background-color: #e9e9e9;
+  }
+  
+  .navbar-links {
+    /* font-family: "Montserrat", sans-serif;
+    font-weight: bold; */
+    padding-left: 10px;
+    font-size: 20px;
+    color: #080808;
+    text-decoration: none;
+  }
+  
+  #btn-login {
+    margin-top: 10px;
+    padding-top: px;
+    text-align: center;
+    background-image: linear-gradient(to right, #003373, #5428f3);
+    border: 2px outset;
+    border-radius: 5px;
+    height: 85%;
+    width: 100%;
+  }
+  
+  #btn-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #main-content {
+    margin-top: 10%;
+  }
+  
+  #web_acessivel{
+    color: #0b0c0c;
+  }
+  
+  #section-textos {
+    color: rgb(19, 18, 18);
+    justify-content: center;
+    margin-top: 2%;
+  }
+  
+  #section-textos-lead {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  
+  #section-textos-body-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  #btn-cadastrese {
+    padding-top: 13px;
+    text-align: center;
+    background-color: #f00909;
+    height: 50px;
+    width: 100%;
+    border-radius: 8px;
+    border: 2px outset;
+  }
+  
+  #cadastrese-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #section-imgs {
+    align-items: center;
+    padding-left: 15%;
+  }
+  
+  #blindman-img {
+    height: 396px;
+    width: 265px;
+    border-radius: 36px;
+    box-shadow: 2px 2px 2px #050368;
+  }
+  
+  
+  #section-quemsomos{
+    margin-top: 5%;
+  }
+  
+  
+  #col-text {
+    color: rgb(58, 57, 57);
+    font-size: 31px;
+  }
+  
+  #div-duvidas{
+    margin-top: 10%;
+  }
+  
+  #section-duvidas {
+    background-color: #a32b2b;
+    border-radius: 16px;
+    height: max-content;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  #section-duvidas-pergunta {
+    font-size: 20px;
+    color: #fff;
+    margin: 10px;
+    padding-top: 10px;
+  }
+  
+  #section-duvidas-resposta {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    margin: 10px;
+  }
+  
+  /* Footer */
+  
+  #footer-links {
+    font-size: 16px;
+    color: #3998b8;
+  }
+  
+  
+  
+  .myform {
+    background-color: #003373;
+    color: #fff;
+    border-radius: 10px;
+    width: 573px;
+  }
+  
+  .btn-clear {
+    background-color: #bebebe !important;
+    color: #003373 !important;
+    border-color: #bebebe !important;
+  }
+  
+  #title-input {
+    font-size: 20px;
+  }
+  
+  .btn-radio{
+    margin-top: 3px;
+    margin-left: 3px;
+  }
+  
+  .input-origem-destino {
+    border-radius: 4px;
+    width: 534px;
+  }
+  
+  .input-passageiro {
+    height: 46px;
+    width: 534px;
+  }
+  
+  #text-title {
+    color: #fff;
+    font-size: 31px;
+  }
+  
+  #divider-section {
+    height: 8px;
+    width: 108px;
+    background-color: #737100;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  #section-btns-comprar {
+    padding-left: 10px;
+    width: 100%;
+  }
+  
+  #div-btn-voltar {
+    background-color: #3998b8;
+    height: 41px;
+    width: 168px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 8px;
+  }
+  
+  #btn-voltar {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  
+  
+  #btn_send_form {
+    background-color: #ff6464;
+    height: 41px;
+    width: 168px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 0 8px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Acessibilidade*/
+  
+  #text-title-acess {
+    color: #fff;
+    font-size: 31px;
+  }
+  
+  #text-subtitle-acess {
+    font-size: 24px;  
+    color: #fff;
+  }
+  
+  #main-text-acess {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  #text-holder-acess {
+    height: 8px;
+    width: 108px;
+    background-color: #050368;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #text-question-acess {
+    color: #050368;
+    font-size: 24px;
+  }
+  
+  .div-necessidades{
+    margin-top: 30px;
+  }
+  
+  .title-necessidade{
+    padding: 0px;
+    color: #fff;
+  }
+  
+  #div-question-border {
+    border-bottom: 2px solid #050368;
+    width: 50%;
+  }
+  
+  #div-acess-row1 {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  #div-acess-row2 {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .icons {
+    font-size: 50px;
+    color: #fff;
+  }
+  
+  .baixavisao{
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .daltonismo{
+    margin-top: 15px;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .fotossensivel{
+    margin-top: 20px;
+    height: 30px;
+    width: 50px;
+  }
+  
+  
+  .necessidade-desc{
+    margin-top: 20px;
+  }
+  
+  .aumentar-fonte{
+    background-color: #003373;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 6px;
+  }
+  
+  .diminuir-fonte{
+    background-color: #ff6464;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 6px;
+  }
+  
+  .contraste{
+    background-image: linear-gradient(to right, #003373, #3998b8);
+    color: #fff;
+    font-size: 1.2rem;
+    margin-left: 0px;
+    border-radius: 6px;
+  }
+  
+  #div-icon {
+    width: 70px;
+    height: 70px;
+    background-color: #3998b8;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  
+  
+  /* Boletim */
+  
+  #section-buscarvoos {
+    background-color: #003373;
+    border-radius: 8px;
+  }
+  
+  
+  #boletim-description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    font-size: 16px;
+    padding-right: 24px;
+  }
+  
+  #boletim {
+    background-color: #fff;
+    height: 650px;
+    width: 100%;
+    text-decoration: none;
+    border-bottom: 1px solid #003373;
+  }
+  
+  #boletim-content {
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  
+  #boletim-content-title {
+    color: #003373;
+    font-size: 22px;
+  }
+  
+  #boletim-content-description {
+    color: #e60510;
+    font-size: 18px;
+  }
+  
+  #icons-beneficiosgol {
+    color: #003373;
+    font-size: 24px;
+    margin: 5px;
+  }
+  
+  /* Login */
+  
+  #login-esqueceu {
+    text-decoration: none;
+  }
+  
+  #login-links {
+    margin-left: 5px;
+    margin-top: 15px;
+    color: #3998b8;
+    font-size: 16px;
+  }
+  
+  #div-sem-login {
+    background-color: #ffffff;
+    height: 41px;
+    width: 180px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 8px;
+  }
+  
+  #btn-sem-login {
+    text-decoration: none;
+    color: #003373;
+  }
+  
+  /* Cadastro */
+  
+  #input-CEP {
+    width: 140px;
+  }
+  
+  #search-correios {
+    text-align: left;
+    margin-top: 48px;
+    margin-left: 20px;
+  }
+  
+  #search-correios-link {
+    color: #fff;
+    font-size: 12px;
+  }
+  
+  #input-nacionalidade {
+    text-align: left;
+    margin-top: 48px;
+    margin-left: 20px;
+  }
+  
+  #inputDocumemento {
+    width: 185px;
+  }
+  
+  #input-Numero-Documemento {
+    width: 217px;
+  }
+  
+  .cancel-icon{
+    color: red;
+    font-size: 24px;
+  }
+  
+  
+  
+  #link-selecionar {
+    text-decoration: none;
+  }
+  
+  
+  /*números cadastrados*/
+  
+  #img-airplane {
+    width: 122.67px;
+    height: 131.02px;
+  }
+  
+  #img-person {
+    width: 97.92px;
+    height: 128px;
+  }
+  
+  #img-seat {
+    width: 106.24px;
+    height: 128px;
+  }
+  
+  
+  
+  
+  
+  #col-precos {
+    margin-right: 50px;
+    text-align: right;
+  }
+  
+  #assento-info {
+    margin: auto;
+    padding-top: 10px;
+  }
+  
+  #bagagem-info {
+    margin-top: 5.5%;
+  }
+  
+  #alterar-links {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #3998b8;
+  }
+  
+  #row-valor-final {
+    margin: auto;
+    text-align: center;
+  }
+  
+  
+  #btn-voltar {
+    background-color: #3998b8;
+    color: rgb(250, 250, 250);
+    margin: auto;
+    padding: 9px;
+    height: 40px;
+    text-align: center;
+    width: 110px;
+    border-radius: 36px;
+  }
+  
+  #btn-links {
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+  }
+  
+  #section-carrinho {
+    background-color: #003373;
+    border-radius: 8px;
+    width: 960px;
+  }
+  
+  
+  #contatos-text{
+    color: #353b3d;
+  }
+  
+  .dark_mode {
+    background-color: rgb(28, 28, 28);
+    
+  }
+  
+  .dark_mode div p  {
+    color: yellowgreen !important; 
+  }
+  
+  .dark_mode div h6  {
+    color: yellowgreen !important; 
+  }
+  
+  .dark_mode div h5  {
+    color: yellowgreen !important; 
+  }
+  
+  .dark_mode div h4  {
+    color: yellowgreen !important; 
+  }
+  
+  .dark_mode div h3  {
+    color: yellowgreen !important; 
+  }
+  
+  .dark_mode div a  {
+    color: yellowgreen !important; 
+  }
+  
+  .dark_mode #btn_send_form {
+    color: yellowgreen;
+  }
+  
+  
+  .alerta {
+    background-color: #ee1111;
+    color: #fff;
+    border-radius: 10px;
+    width: 573px;
+  }
+  
+  

@@ -1,0 +1,142 @@
+body::before {
+    display: block;
+    content: " ";
+    height: 60px;
+  }
+  
+  @media (min-width: 768px) {
+    .news-input {
+      width: 50%;
+    }
+  }
+
+   {
+    color: #003373;;
+    font-size: 2.441rem;
+    text-decoration: none;
+  }
+  /* Navbar */
+  #logo-font {
+    font-size: 29.26px;
+    font-family: "Fredoka One";
+  }
+  
+  #btn-login {
+    width: 100px;
+  }
+  
+  /* Carousel */
+  .carousel-item {
+    max-height: 32rem;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .carousel-item::before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #000;
+    opacity: 0.7;
+  }
+  
+  .carousel-caption{
+    bottom: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  .slider-btn{
+    margin-top: 30px;
+  }
+  
+  /* Text Section */
+  
+  .div-img{
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Dark Mode */
+  .dark_mode {
+    background-color: rgb(28, 28, 28);
+  
+  }
+  
+  .dark_mode div p {
+    color: yellowgreen !important;
+  }
+  
+  .dark_mode div h6  {
+    color: yellowgreen !important;
+  }
+  
+  .dark_mode div h5  {
+    color: yellowgreen !important;
+  }
+  
+  .dark_mode div h4  {
+    color: yellowgreen !important;
+  }
+  
+  .dark_mode div h3  {
+    color: yellowgreen !important;
+  }
+  
+  .dark_mode div h2  {
+    color: yellowgreen !important;
+  }
+  
+  .dark_mode div h1  {
+    color: yellowgreen !important;
+  }
+  
+  .dark_mode div a  {
+    color: yellowgreen !important;
+  }
+  
+  .dark_mode #btn_send_form {
+    color: yellowgreen;
+  }
+  
+  
+   /* Boletim */
+  
+   #section-buscarvoos {
+    background-color: #003373;
+    border-radius: 8px;
+  }
+  
+  
+  #boletim-description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    font-size: 16px;
+    padding-right: 24px;
+  }
+  
+  #boletim {
+    background-color: #fff;
+    height: 100px;
+    width: 100%;
+    text-decoration: none;
+    border-bottom: 1px solid #003373;
+  }
+  
+  #boletim-content {
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  
+  #boletim-content-title {
+    color: #003373;
+    font-size: 15px;
+  }
+  
+  #boletim-content-description {
+    color: #353b3d;
+    font-size: 20px;
+  }

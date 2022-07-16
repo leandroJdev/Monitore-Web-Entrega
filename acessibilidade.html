@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet" />
+    <!-- Icon Page -->
+    
+    <title>Acessibilidade</title>
+
+
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/css.css" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
+
+  </head>
+  <header id="mainheader"></header>
+
+  <body class="container body main">
+   
+
+    <br />
+
+    <main class="container">
+      <br />
+
+      <div class="container">
+        <br />
+
+        <div align="center">
+          <h4 class="font-title-preto">Acessibilidade</h4>
+        </div>
+
+        <br />
+
+        <h6 class="font-subtitle-azul">Pessoas com deficiências visuais</h6>
+        <div id="text-holder-acess"></div>
+      </div>
+
+      <div class="container">
+        <h6 class="font-text-preto" align="justify">
+          Trazendo um site com recursos de acessibilidade, seguindo as
+          recomendações do W3C, principal organização de padronização da World
+          Wide Web, que desenvolve especificações técnicas e orientações para o
+          mercado. Com isso, pessoas com deficiência visual, baixa visão
+          daltonismo e fotossensível conseguem navegar em nosso site por meio de
+          recursos que foram implementados para garantir este acesso, tais como
+          alto contraste, teclas de atalho e navegação por teclado e botão de
+          tamanho de fonte.
+        </h6>
+      </div>
+
+      <br />
+
+      <div class="container" id="div-question-border" align="center">
+        <h4 id="text-question-acess">Qual a sua necessidade?</h4>
+      </div>
+
+      <br />
+
+      <!-- Baixa Visão -->
+      <div class="container row div-necessidades">
+        <div class="col-2 title-necessidade" align="center">
+          <h6 class="font-subtitle-azul">Baixa Visão</h6>
+          <div class="col-1" id="div-icon">
+            <i href="#"
+              ><img class="baixavisao" src="imagens\Cegueira.png" alt=""
+            /></i>
+          </div>
+
+          <br />
+
+          <div class="container col">
+            <a href="">
+
+            </a>
+            <div class="btn-container">
+              <button
+                name="increase-font"
+                id="increase-font"
+                class="aumentar-fonte"
+                title="Aumentar globalmente o tamanho das fonte"
+              >
+                A +
+              </button>
+              <button
+                name="decrease-font"
+                id="decrease-font"
+                class="diminuir-fonte"
+                title="Diminuir globalmente o tamanho das fontes"
+              >
+                A -
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-8">
+          <br />
+          <h6 class="font-text-preto necessidade-desc" align="justify">
+            Para pessoas com baixa visão temos ferramentas de acessibilidade em que é possível alterar o tamanho da fonte, aperte Tab para alcançar os botões de tamanho de fonte.
+          </h6>
+        </div>
+        <div class="col"></div>
+      </div>
+
+      <br />
+
+      
+
+      <!-- Fotossensível -->
+      <div class="container row div-necessidades">
+        <div class="col-2 font-subtitle-azul" align="center">
+          <h6 class="font-subtitle-azul">Fotossensível</h6>
+          <div class="col-1" id="div-icon">
+            <i href="#"
+              ><img class="fotossensivel" src="imagens\fotossensivel.png"
+            /></i>
+            
+          </div>
+
+          <br />
+
+          <div class="container col">
+            <button
+              name="change-color"
+              id="change-color"
+              class="contraste"
+              title="Ativar o contraste do site"
+              onclick="changeColor()"
+            >
+              Contraste
+            </button>
+          </div>
+        </div>
+
+        <div class="col-8">
+          <br />
+          <h6 class="font-text-preto necessidade-desc" align="justify">
+            Para pessoas com fotossensibilidade visual ou com certo nível de daltonismo temos ferramentas de acessibilidade de contraste de cores, deixando o tema mais escuro ou mais claro, com o botão contraste logo abaixo.
+          </h6>
+        </div>
+        <div class="col"></div>
+      </div>
+
+      <br />
+      <div class="row" id="section-btns-comprar" align="middle">
+        <div class="col">
+            <div id="div-btn-voltar">
+                <a class="font-text-branco" id="btn-voltar" href="index.html">Voltar</a>
+            </div>
+            <br><br>
+
+            
+     
+            <header id="mainfooter"></header>
+     
+    <script type="text/javascript" src="js\cookie.js"></script>
+    <script type="text/javascript" src="js\Scriptexterno.js"></script>
+
+  </body>
+</html>
+
