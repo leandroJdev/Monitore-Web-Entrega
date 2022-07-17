@@ -114,6 +114,34 @@ function carregaDocumento(arquivo, target)
 	xhr.send(null);
 }
 
+// função para guardar informações 
+
+function store() {
+    var nome = document.getElementById("input-name").value;
+    sessionStorage.setItem("nome", nome);
+    console.log(`Nome: ${nome} cadastrado!`);
+
+      // Recolhe o número de CPF
+  var num_cpf = document.getElementById("input-Numero-Documemento").value
+  sessionStorage.setItem("num_cpf", num_cpf)
+  }
+
+
+  // parte do cadastro especial
+
+  function expandir(){
+	var especial=document.getElementById("especial");
+	var maisespecial=document.getElementById("maisespecial");
+
+	if(especial.style.display === "none"){
+		especial.style.display ="inline";
+		maisespecial.innerHTML="Sim, Preciso de atendimento especial"
+	} else{
+			especial.style.display ="none";
+			maisespecial.innerHTML="Você precisa de atendimento especial?"
+	}
+
+  }
 
 
 document.addEventListener("DOMContentLoaded", iniciadora, false)
