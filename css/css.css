@@ -559,14 +559,12 @@ body {
     text-align: right;
   }
   
-  #assento-info {
+  #lugar-info {
     margin: auto;
     padding-top: 10px;
   }
   
-  #bagagem-info {
-    margin-top: 5.5%;
-  }
+
   
   #alterar-links {
     font-size: 1rem;
