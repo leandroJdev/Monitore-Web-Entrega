@@ -50,7 +50,7 @@
 
     <br>
 
-    <form class="container myform">
+    <form class="container myform" action="Perfil.html">
 
        
             
@@ -62,7 +62,7 @@
                 <label for="input-username" class="form-label font-subtitle-branco"
                   >Nome completo</label
                 >
-                <input type="text" class="form-control input-passageiro" id="input-name" placeholder="Nome completo">
+                <input type="text" class="form-control input-passageiro" required id="input-name" placeholder="Nome completo">
             </div>
 
       <div align="center">
@@ -72,7 +72,7 @@
 
       <div class="col-md">
         <label for="input-username" class="form-label font-subtitle-branco">Endereço</label>
-        <input type="text" class="form-control input-passageiro" id="input-name-completo" placeholder="Digite seu endereço">
+        <input type="text" class="form-control input-passageiro" id="enderec" required placeholder="Digite seu endereço">
       </div>
       <br>
       <div class="row">
@@ -101,7 +101,7 @@
             <label for="input-username" class="form-label font-subtitle-branco"
               >CPF</label
             >
-            <input type="text" class="form-control input-passageiro" id="input-name" placeholder="Digite o seu CPF">
+            <input type="text" class="form-control input-passageiro" required id="Cpf" placeholder="Digite o seu CPF">
         </div>
         <br>
            <h5>Cadastre o número do seu celular para receber SMS de alerta.</h5> 
@@ -131,6 +131,7 @@
             >
             <input
               type="text"
+              required
               class="form-control input-passageiro"
               id="input-Numero-Documemento"
               placeholder="Ex: 000.000.000-00"
@@ -145,7 +146,8 @@
             <input
               type="email"
               class="form-control input-passageiro"
-              id="input-email"
+              required
+              id="numemail"
               placeholder="Digite um email válido"
             />
           </div>
@@ -272,9 +274,9 @@
           </div>
         </div>
         <div class="col">
-          <div id="div-btn-voltar">
-            <a class="font-text-branco" id="btn-voltar" href="Perfil.html">Entrar</a>
-          </div>
+
+            <button   id="btn-voltar"style="width:30%" type="submit" href="Perfil.html">  Entrar  </button>
+
         </div>
       </div>
 
@@ -288,7 +290,20 @@
 <br>
 
 <header id="mainfooter"></header>
-        
+  
+  <script>    
+  
+  // Salva o nome
+    function store() {
+      var nome = document.getElementById("input-name").value;
+      sessionStorage.setItem("nome", nome);
+      console.log(`Nome: ${nome} cadastrado!`);
+            // Recolhe o email
+  var numemail = document.getElementById("numemail").value
+  sessionStorage.setItem("numemail", numemail)
+    }
+    
+    </script>
     <script type="text/javascript" src="js/cookie.js"></script>
     <script type="text/javascript" src="js/Scriptexterno.js"></script>
 

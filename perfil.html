@@ -66,9 +66,9 @@
               <input type="file" name="arquivos" class="btn btn-success"  accept="image/png, image/jpeg"  style="width:150px" /> 
             </div>
             <div class="col-7 div-perfil">
-                <h6 class="font-subtitle-branco" id="nome">Bem vindo, @user </h6>
-                <h6 class="font-text-branco"><i class="bi bi-envelope-fill perfil-icons"></i> @emailaqui</h6>
-              </div>
+              <h6 class="font-subtitle-branco" id="nome">Bem vindo, NOME DO USUÁRIO</h6>
+              <h6 class="font-text-branco"><i class="bi bi-envelope-fill perfil-icons"></i> EMAILDOUSUÁRIO@GMAIL.COM</h6>
+            </div>
               <div class="col div-perfil"><a class="bi bi-gear-fill perfil-icons-lg" title="Editar perfil de usuário"
                   href="cadastro.html"></a>
               </div>
@@ -130,6 +130,14 @@
 
   <header id="mainfooter"></header>
         
+    <script>
+ // Exibe os dados 
+ document.getElementById("logo-username").innerText = sessionStorage.getItem("nome").split(" ")[0]
+  document.getElementById("nome").innerText = `Bem vindo, ${sessionStorage.getItem("nome")}`
+
+
+
+    </script>
     <script type="text/javascript" src="/js/cookie.js"></script>
     <script type="text/javascript" src="/js/Scriptexterno.js"></script>
 
