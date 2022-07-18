@@ -100,10 +100,12 @@ body::before {
     color: yellowgreen !important;
   }
   
-  .dark_mode #btn_send_form {
+  .dark_mode #label {
     color: yellowgreen;
   }
-  
+  .dark_mode label {
+    color: yellowgreen;
+  }
   
    /* Boletim */
   

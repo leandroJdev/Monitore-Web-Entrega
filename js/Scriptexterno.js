@@ -143,22 +143,6 @@ function store() {
 
   }
 
-// pop-up email
 
-const button = document.querySelector('enviar')
-const popup = document.querySelector('.popup-wrapper')
-const closeButton = document.querySelector('.popup-close')
-enviar.addEventListener('click',() => (
-	popup.style.display = 'block'
-	
-) )
-
-closeButton.addEventListener('click', () => {
-	popup.style.display = "none"
-} )
-
-popup.addEventListener('click', () => {
-	popup.style.display ='none'
-})
 
 document.addEventListener("DOMContentLoaded", iniciadora, false)
