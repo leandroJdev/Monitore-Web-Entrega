@@ -76,12 +76,6 @@ function verificaEstado() {
 	}
 }
 
-// Data Atual no sistema
-
-function dataAtual() {
-	document.getElementById("dataAtual").innerHTML = data.toLocaleDateString()
-}
-
 // Inicia o sistema
 
 function iniciadora() {
